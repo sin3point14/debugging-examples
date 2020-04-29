@@ -19,7 +19,10 @@
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-            ]
+            ],
+            "windows":{
+                "miDebuggerPath": "C:\\Users\\senpai\\scoop\\apps\\gcc\\current\\bin\\gdb.exe",
+            }
         }
     ]
 }
