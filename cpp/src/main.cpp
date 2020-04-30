@@ -1,5 +1,6 @@
 include <iostream>
 #include "Print.h"
+#include "xclass.h"
 
 int main() 
 {
@@ -13,6 +14,19 @@ int main()
 		a++;
 		std::cout << a << std::endl;
 	}
+
+/*	X* x1 = new X(7);
+	X* x2 = new X(6,2);
+	X* x3 = new X(9);
+	X* x4 = new X(9,1);
+	x1->foo();
+	x2->foo();
+	x3->foo();
+	x4->foo();
+	delete x1,
+	delete x2;
+	delete x3;
+	delete x4; */
 }
 
 /* point to cover :
