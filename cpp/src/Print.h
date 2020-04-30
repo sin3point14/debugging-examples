@@ -2,5 +2,5 @@
 
 class Print{
 public:
-    void print();
+    void print(const char* message);
 };
